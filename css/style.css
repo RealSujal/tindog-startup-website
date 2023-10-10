@@ -1,0 +1,48 @@
+.gradient-background {
+  background: linear-gradient(300deg, #799EC8, #D85BC3, #A65BD8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.white{
+  color: white;
+}
+.pink{
+  color: #CA49B4;
+}
+.pinky{
+  color: #CA49B4;
+  font-weight: bold;
+}
+.fs-2{
+  font-weight: bold;
+}
+.btn-primary{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
